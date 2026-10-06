@@ -2,6 +2,10 @@
 
 A simple iOS app for recording runs. Tap **Start Recording** and FunRun tracks your run in real time using the device's motion sensors and GPS.
 
+> [!IMPORTANT]
+> **FunRun must be run on a physical iPhone, not the iOS Simulator.**
+> It relies on the pedometer (CoreMotion), which the Simulator doesn't have, so steps, distance and pace won't record there.
+
 ## Features
 
 While recording, FunRun shows:
@@ -14,9 +18,9 @@ While recording, FunRun shows:
 
 ## Requirements
 
+- **A physical iPhone** running iOS 26.1 or later (the Simulator is not supported)
 - Xcode 26 or later
-- iOS 26.1 or later
-- A physical iPhone is recommended, because the Simulator doesn't provide pedometer data
+- An Apple ID signed in to Xcode, so you can sign the app and install it on your device
 
 ## Getting Started
 
@@ -25,7 +29,7 @@ While recording, FunRun shows:
    git clone git@github.com:milliesavalia/FunRun.git
    ```
 2. Open `FunRun.xcodeproj` in Xcode.
-3. Select your device and press **Run** (⌘R).
+3. Connect your iPhone, choose it as the run destination (not a Simulator), and press **Run** (⌘R).
 4. Grant Motion & Fitness and Location access when prompted.
 
 ## Project Structure
