@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Re-include Xcode project files excluded by the global gitignore
+!project.pbxproj
+!contents.xcworkspacedata
+
+# Swift Package Manager
+.build/
+.swiftpm/
