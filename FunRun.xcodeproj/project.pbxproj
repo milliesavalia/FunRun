@@ -300,6 +300,9 @@
 				DEVELOPMENT_TEAM = B233FW262P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FunRun/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "FunRun uses your location to keep tracking your route while you run, even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FunRun uses your location to track your route while you record a run.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "FunRun uses motion data to count your steps and measure distance and pace during a run.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,6 +335,9 @@
 				DEVELOPMENT_TEAM = B233FW262P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FunRun/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "FunRun uses your location to keep tracking your route while you run, even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FunRun uses your location to track your route while you record a run.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "FunRun uses motion data to count your steps and measure distance and pace during a run.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
